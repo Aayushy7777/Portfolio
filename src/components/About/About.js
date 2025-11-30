@@ -4,15 +4,14 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-// Use a headshot placed in `public/headshot.jpg`. This avoids build-time imports
-// so you can drop the image into `public/headshot.jpg` and it will be served.
+import Toolstack from "./Toolstack";   // << moved import to the top
+
+// Headshot from public folder (no import needed)
 const publicHeadshot = process.env.PUBLIC_URL + "/headshot.jpg";
-import Toolstack from "./Toolstack";
 
 function About() {
   return (
     <>
-      {" "}
       <Particle />
       <Container fluid className="about-section">
         <Container>
@@ -30,6 +29,7 @@ function About() {
               </h1>
               <Aboutcard />
             </Col>
+
             <Col
               md={5}
               style={{ paddingTop: "120px", paddingBottom: "50px" }}
@@ -38,10 +38,10 @@ function About() {
               <img src={publicHeadshot} alt="about" className="img-fluid" />
             </Col>
           </Row>
-          <h1 className="project-heading">
-            Professional <strong className="purple">Skillset </strong>
-          </h1>
 
+          <h1 className="project-heading">
+            Professional <strong className="purple">Skillset</strong>
+          </h1>
           <Techstack />
 
           <h1 className="project-heading">
