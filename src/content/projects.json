@@ -1,0 +1,23 @@
+[
+  {
+    "title": "BookCircle — Online Book Marketplace",
+    "dates": "Mar 2025 -- Jun 2025",
+    "description": "Built scalable RESTful APIs and services for a book marketplace using Spring Boot and FastAPI. Supported 1,000+ listings and reduced average response time by 40% through optimized queries and caching.",
+    "tech": ["Java","Spring Boot","FastAPI","PostgreSQL","Docker"],
+    "links": {}
+  },
+  {
+    "title": "PERN Family Management CRUD App",
+    "dates": "Jan 2025 -- Mar 2025",
+    "description": "Developed a full-stack CRUD application for managing family member records using PostgreSQL, Express, React, and Node. Created modular RESTful endpoints and reusable React components.",
+    "tech": ["PostgreSQL","Express","React","Node.js"],
+    "links": {}
+  },
+  {
+    "title": "Embedded UAV Flight Controller (Final Year Project)",
+    "dates": "Jul 2025 -- Present",
+    "description": "Engineered an embedded UAV flight controller integrating TinyML models for real-time anomaly detection and automated safety responses. Designed custom drone hardware in Fusion 360 and optimized aerodynamics for prototype testing.",
+    "tech": ["ESP32-S3","Python","TinyML","Fusion 360"],
+    "links": {}
+  }
+]

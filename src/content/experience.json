@@ -1,0 +1,13 @@
+[
+  {
+    "company": "Elitech",
+    "title": "Full Stack Developer Intern",
+    "location": "Remote, Maharashtra",
+    "dates": "Dec 2024 -- Jan 2026",
+    "highlights": [
+      "Developed and deployed an e-commerce web application using the PERN stack with secure authentication, product catalog, cart, and order processing for 250+ users, reducing manual back-office workflows by 60%.",
+      "Designed and integrated RESTful APIs and custom admin dashboards for inventory and order management, improving scalability and operational efficiency by 40% through automation and real-time data synchronization."
+    ],
+    "tech": ["PostgreSQL","Express.js","React.js","Node.js"]
+  }
+]
