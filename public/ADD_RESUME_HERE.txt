@@ -1,0 +1,5 @@
+Please copy your resume PDF into this folder and name it exactly:
+
+Aayush Resume .pdf
+
+After adding the PDF, the site's Resume page (path `/resume`) will display and link to this file.

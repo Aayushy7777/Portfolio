@@ -1,0 +1,51 @@
+{
+  "name": "Aayush Yadav",
+  "fullName": "Aayush Yadav",
+  "phone": "+91 7021080797",
+  "email": "aayu.sh7021@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/aayushyadav7777",
+  "github": "https://github.com/Aayushy7777",
+  "portfolio": "https://your-portfolio-link.com",
+  "headline": "Undergraduate AI & Data Science student | Full-Stack Developer (React, Node)",
+  "location": "Mumbai, Maharashtra, India",
+  "currentTitle": "Full Stack Developer Intern",
+  "currentCompany": "Elitech",
+  "education": "B.Tech in AI & Data Science, Thakur College of Engineering and Technology (GPA: 9.05)",
+  "summary": "Undergraduate AI & DS student with strong foundations in software development and data-driven problem solving. Passionate about building scalable systems and leveraging data to drive high-impact solutions.",
+  "skills": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "SQL",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Express",
+    "Spring Boot",
+    "FastAPI"
+  ],
+  "frameworks": ["React.js","Next.js","Spring Boot","FastAPI","Node.js"],
+  "databases": ["PostgreSQL","MySQL","MongoDB"],
+  "tools": ["VS Code","PyCharm","IntelliJ IDEA","Jupyter Notebook","Google Colab","Git","Docker","Figma"],
+  "others": ["AutoCAD","Fusion 360","Canva","MS Word","MS Excel"],
+  "hobbies": ["Coding","Writing Tech Blogs","Travelling"],
+  "quote": "Strive to build things that make a difference!",
+  "resumeUrl": "/resume.pdf",
+  "achievements": [
+    {
+      "title": "Python 3.4.3 Training",
+      "issuer": "IIT Bombay",
+      "date": "Apr 2023"
+    },
+    {
+      "title": "MERN Stack Bootcamp",
+      "issuer": "Udemy",
+      "date": "Jun 2025"
+    },
+    {
+      "title": "Advanced SQL",
+      "issuer": "HackerRank",
+      "date": "Aug 2025"
+    }
+  ]
+}
