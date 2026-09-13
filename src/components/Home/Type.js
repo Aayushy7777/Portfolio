@@ -6,11 +6,11 @@ return (
 <Typewriter
 options={{
 strings: [
-"Full-Stack Developer",
-"AI & Data Science Undergraduate",
-"Spring Boot & React Developer",
-"Backend & REST API Engineer",
-"Data & Analytics Enthusiast",
+  "AI & Data Engineer",
+  "Machine Learning Practitioner",
+  "Full-Stack Developer",
+  "Data Pipeline Architect",
+  "Spring Boot & FastAPI Developer",
 ],
 autoStart: true,
 loop: true,

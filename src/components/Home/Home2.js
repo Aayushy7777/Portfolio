@@ -13,51 +13,45 @@ return (
 LET ME <span className="purple"> INTRODUCE </span> MYSELF
 </h1>
 <p className="home-about-body">
-I’m a final-year AI & Data Science undergraduate and full‑stack
-developer who enjoys turning ideas into reliable, scalable web
-applications and data‑driven solutions.
-
-
+I'm a final-year AI & Data Science undergraduate and aspiring
+AI & Data Engineer who enjoys building intelligent data
+pipelines and scalable machine learning systems.
 
 
 I work mainly with{" "}
 <i>
 <b className="purple">
-Java, Spring Boot, JavaScript / TypeScript, React, and Vue
+Python, Java, SQL, TensorFlow, Scikit-Learn, and Pandas
 </b>
 </i>{" "}
 along with{" "}
 <i>
 <b className="purple">
-REST APIs, PostgreSQL, MySQL, and MongoDB
+PostgreSQL, MySQL, MongoDB, and Docker
 </b>
 </i>{" "}
-for building end‑to‑end systems.
-
-
+for building end-to-end data solutions.
 
 
 My key areas of interest include{" "}
 <i>
 <b className="purple">
-backend engineering, data analytics, and AI/ML‑powered
-applications
+machine learning, deep learning, data engineering, and
+NLP-powered applications
 </b>
 </i>{" "}
-where I can use clean architecture and good data design to solve
-real problems.
-
-
+where I can leverage clean data architecture to solve
+real-world problems.
 
 
 Whenever possible, I love building projects with{" "}
-<b className="purple">Spring Boot</b> and modern frontend stacks
-like{" "}
+<b className="purple">TensorFlow</b> and{" "}
+<b className="purple">Scikit-Learn</b>, deploying APIs
+with{" "}
 <i>
-<b className="purple">React.js</b> and{" "}
-<b className="purple">Vue.js</b>, and integrating dashboards
-and analytics using tools like{" "}
-<b className="purple">Python and Power BI</b>.
+<b className="purple">Flask, FastAPI, and Spring Boot</b>,
+and visualizing insights using{" "}
+<b className="purple">Power BI and Matplotlib</b>.
 </i>
 </p>
 </Col>

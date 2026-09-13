@@ -57,7 +57,7 @@ Hi There!{" "}
         <ul className="home-about-social-links">
           <li className="social-icons">
             <a
-              href="mailto:aayush09204@gmail.com"
+              href="mailto:aayu.sh7021@gmail.com"
               target="_blank"
               rel="noreferrer"
               className="icon-colour home-social-icons"
