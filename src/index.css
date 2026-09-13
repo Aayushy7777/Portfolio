@@ -1,11 +1,10 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap'); */
-
-@import url("https://fonts.googleapis.com/css2?family=Outfit&family=PT+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap");
 
 body {
   margin: 0;
-  font-family: "PT Mono", monospace !important;
+  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+  background-color: #0F172A;
+  color: #F8FAFC;
 }

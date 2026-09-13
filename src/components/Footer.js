@@ -1,53 +1,60 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-} from "react-icons/ai";
+import { AiFillGithub, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
-    <Container fluid className="footer">
-      <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Aayush Yadav</h3>
+    <Container fluid className="footer" style={{ backgroundColor: "var(--color-primary)", borderTop: "1px solid var(--color-border)" }}>
+      <Row style={{ alignItems: "center", padding: "15px 0" }}>
+        <Col md="4" className="footer-copywright" style={{ textAlign: "center" }}>
+          <p style={{ fontFamily: "var(--font-mono)", fontSize: "0.8rem", color: "var(--color-muted-foreground)", margin: 0 }}>
+            Built by Aayush Yadav
+          </p>
         </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} AY</h3>
+        <Col md="4" className="footer-copywright" style={{ textAlign: "center" }}>
+          <p style={{ fontFamily: "var(--font-mono)", fontSize: "0.8rem", color: "var(--color-muted-foreground)", margin: 0 }}>
+            Copyright &copy; {year}
+          </p>
         </Col>
-        <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
+        <Col md="4" className="footer-body" style={{ textAlign: "center" }}>
+          <ul className="footer-icons" style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", justifyContent: "center", gap: "20px" }}>
+            <li>
               <a
                 href="https://github.com/Aayushy7777"
-                style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
+                style={{ color: "var(--color-muted-foreground)", transition: "color 0.2s ease" }}
+                onMouseEnter={(e) => e.currentTarget.style.color = "var(--color-accent)"}
+                onMouseLeave={(e) => e.currentTarget.style.color = "var(--color-muted-foreground)"}
               >
-                <AiFillGithub />
+                <AiFillGithub size={18} />
               </a>
             </li>
-            <li className="social-icons">
+            <li>
               <a
-                href="https://github.com/Aayushy7777"
-                style={{ color: "white" }}
-                target="_blank" 
+                href="mailto:aayush09204@gmail.com"
+                target="_blank"
                 rel="noopener noreferrer"
+                style={{ color: "var(--color-muted-foreground)", transition: "color 0.2s ease" }}
+                onMouseEnter={(e) => e.currentTarget.style.color = "var(--color-accent)"}
+                onMouseLeave={(e) => e.currentTarget.style.color = "var(--color-muted-foreground)"}
               >
-                <AiOutlineTwitter />
+                <AiOutlineMail size={18} />
               </a>
             </li>
-            <li className="social-icons">
+            <li>
               <a
                 href="https://www.linkedin.com/in/aayushyadav7777/"
-                style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
+                style={{ color: "var(--color-muted-foreground)", transition: "color 0.2s ease" }}
+                onMouseEnter={(e) => e.currentTarget.style.color = "var(--color-accent)"}
+                onMouseLeave={(e) => e.currentTarget.style.color = "var(--color-muted-foreground)"}
               >
-                <FaLinkedinIn />
+                <FaLinkedinIn size={18} />
               </a>
             </li>
           </ul>

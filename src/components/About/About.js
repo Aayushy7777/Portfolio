@@ -23,8 +23,9 @@ function About() {
                 paddingBottom: "50px",
               }}
             >
-              <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-                Know Who <strong className="purple">I&apos;M</strong>
+              <h1 style={{ fontSize: "2em", paddingBottom: "20px", fontFamily: "var(--font-mono)" }}>
+                <span style={{ color: "var(--color-accent)" }}>01.</span>{" "}
+                <span style={{ color: "var(--color-foreground)" }}>About Me</span>
               </h1>
               <Aboutcard />
             </Col>
@@ -38,17 +39,24 @@ function About() {
                 src={publicHeadshot}
                 alt="Aayush Yadav headshot"
                 className="img-fluid"
+                style={{
+                  borderRadius: "12px",
+                  border: "2px solid var(--color-border)",
+                  maxWidth: "300px",
+                }}
               />
             </Col>
           </Row>
 
-          <h1 className="project-heading">
-            Professional <strong className="purple">Skillset</strong>
+          <h1 className="project-heading" style={{ fontFamily: "var(--font-mono)" }}>
+            <span style={{ color: "var(--color-accent)" }}>02.</span>{" "}
+            <span style={{ color: "var(--color-foreground)" }}>Tech Stack</span>
           </h1>
           <Techstack />
 
-          <h1 className="project-heading">
-            <strong className="purple">Tools</strong> I use
+          <h1 className="project-heading" style={{ fontFamily: "var(--font-mono)" }}>
+            <span style={{ color: "var(--color-accent)" }}>03.</span>{" "}
+            <span style={{ color: "var(--color-foreground)" }}>Tools</span>
           </h1>
           <Toolstack />
 
