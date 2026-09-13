@@ -5,8 +5,7 @@ import Particle from "../Particle";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-// The resume PDF should be placed in the public folder at `/Aayush Resume .pdf`.
-const pdf = "/Aayush Resume .pdf";
+const pdf = "/AayushResume.pdf";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
