@@ -1,13 +1,16 @@
 [
   {
     "company": "Datastraa LLP",
-    "title": "Full Stack Developer Intern",
-    "location": "Remote, Maharashtra",
-    "dates": "Dec 2024 -- Present",
+    "title": "Data & AI Engineering Intern",
+    "location": "Mumbai, India",
+    "dates": "Jul 2026 -- Present",
     "highlights": [
-      "Developed and deployed an e-commerce web application using the PERN stack (PostgreSQL, Express.js, React.js, Node.js) with secure authentication, product catalog, cart, and order processing for 250+ users, reducing manual back-office workflows by 60%.",
-      "Designed and integrated RESTful APIs and custom admin dashboards for inventory and order management, improving scalability and operational efficiency by 40% through automation and real-time data synchronization."
+      "Built and maintained 10+ Power BI dashboards and SQL-based reporting solutions for 2+ enterprise clients (Dorf Ketal, ICICI Lombard), delivering end-to-end analytics for business and operational KPIs.",
+      "Performed data engineering across Microsoft Fabric (OneLake, Data Lake, Data Factory, Power BI Service), ingesting, transforming, and storing data through ELT reporting workflows.",
+      "Published and maintained 10+ Power BI reports in Power BI Service, managing data refreshes, KPI tracking, and access updates to keep dashboards aligned with evolving requirements.",
+      "Automated 10+ recurring reporting and operational workflows using Power Automate, cutting manual intervention by approximately 80% and improving delivery turnaround for clients.",
+      "Coordinated with Dorf Ketal on 20+ dashboard update and reporting requests, resolving issues and implementing requirement changes to keep deliverables on schedule."
     ],
-    "tech": ["PostgreSQL", "Express.js", "React.js", "Node.js", "REST APIs"]
+    "tech": ["Power BI", "SQL", "Microsoft Fabric", "OneLake", "Data Factory", "Power Automate", "ELT"]
   }
 ]
