@@ -8,6 +8,7 @@ import profile from "../../content/profile.json";
 
 const pdf = "/AayushResume.pdf";
 
+function ResumeNew() {
   return (
     <div>
       <Container fluid className="resume-section">
